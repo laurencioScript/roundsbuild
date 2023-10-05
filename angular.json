@@ -36,6 +36,7 @@
           },
           "configurations": {
             "production": {
+              "baseHref": "/roundsbuild/",
               "budgets": [
                 {
                   "type": "initial",
