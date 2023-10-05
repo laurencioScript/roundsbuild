@@ -119,12 +119,12 @@ $reset-shadow-color:  #8C2022;
     height: 350px;
     color: white;
     cursor: pointer;
-    transition: 1s ease-in-out;
-    transform-style: preserve-3d;
+    // transition: 1s ease-in-out;
+    // transform-style: preserve-3d;
 
-    &:hover {
-      transform: rotateY(0.5turn);
-    }
+    // &:hover {
+    //   transform: rotateY(0.5turn);
+    // }
 
     .card__face {
       position: absolute;
@@ -141,9 +141,9 @@ $reset-shadow-color:  #8C2022;
         object-fit: cover;
       }
 
-      &--back {
-        transform: rotateY(0.5turn);
-      }
+      // &--back {
+      //   transform: rotateY(0.5turn);
+      // }
     }
   }
 }
